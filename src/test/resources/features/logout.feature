@@ -1,5 +1,5 @@
 Feature: As a user, I should be able to log out
-
+  @MESK-360
   Scenario: 1-User can log out and ends up in log in page
     Given user is on the login page of web table
     When user enters user name "Employee33"
@@ -12,7 +12,7 @@ Feature: As a user, I should be able to log out
     Then Verify that user can log out on the files page and see login page
 
 
-  @wip
+  @MESK-362
   Scenario: 2-User can not go to the home page again by clicking the step back button after successfully logging out
     Given user is on the login page of web table
     When user enters user name "Employee33"
